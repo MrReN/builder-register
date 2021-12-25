@@ -9,6 +9,7 @@ def sumNumber(){
     n = 1
     while(n<101){
         sum =sum + (n**3-pow(n,1/3))
+        n+=1
     }
     return sum
 }
